@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EDB64F21C261C11006D6141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB64F11C261C11006D6141 /* main.m */; };
+		5EDB64F51C261C11006D6141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB64F41C261C11006D6141 /* AppDelegate.m */; };
+		5EDB64F81C261C11006D6141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB64F71C261C11006D6141 /* ViewController.m */; };
+		5EDB64FB1C261C11006D6141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB64F91C261C11006D6141 /* Main.storyboard */; };
+		5EDB64FD1C261C11006D6141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB64FC1C261C11006D6141 /* Assets.xcassets */; };
+		5EDB65001C261C11006D6141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB64FE1C261C11006D6141 /* LaunchScreen.storyboard */; };
+		5EDB650B1C261C11006D6141 /* LyndaExercisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB650A1C261C11006D6141 /* LyndaExercisesTests.m */; };
+		5EDB65161C261C11006D6141 /* LyndaExercisesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDB65151C261C11006D6141 /* LyndaExercisesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EDB65071C261C11006D6141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDB64E51C261C11006D6141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDB64EC1C261C11006D6141;
+			remoteInfo = LyndaExercises;
+		};
+		5EDB65121C261C11006D6141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDB64E51C261C11006D6141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EDB64EC1C261C11006D6141;
+			remoteInfo = LyndaExercises;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EDB64ED1C261C11006D6141 /* LyndaExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyndaExercises.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB64F11C261C11006D6141 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EDB64F31C261C11006D6141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EDB64F41C261C11006D6141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EDB64F61C261C11006D6141 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5EDB64F71C261C11006D6141 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EDB64FA1C261C11006D6141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EDB64FC1C261C11006D6141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EDB64FF1C261C11006D6141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EDB65011C261C11006D6141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDB65061C261C11006D6141 /* LyndaExercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyndaExercisesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB650A1C261C11006D6141 /* LyndaExercisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyndaExercisesTests.m; sourceTree = "<group>"; };
+		5EDB650C1C261C11006D6141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDB65111C261C11006D6141 /* LyndaExercisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyndaExercisesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EDB65151C261C11006D6141 /* LyndaExercisesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyndaExercisesUITests.m; sourceTree = "<group>"; };
+		5EDB65171C261C11006D6141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EDB64EA1C261C11006D6141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB65031C261C11006D6141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB650E1C261C11006D6141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EDB64E41C261C11006D6141 = {
+			isa = PBXGroup;
+			children = (
+				5EDB64EF1C261C11006D6141 /* LyndaExercises */,
+				5EDB65091C261C11006D6141 /* LyndaExercisesTests */,
+				5EDB65141C261C11006D6141 /* LyndaExercisesUITests */,
+				5EDB64EE1C261C11006D6141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EDB64EE1C261C11006D6141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB64ED1C261C11006D6141 /* LyndaExercises.app */,
+				5EDB65061C261C11006D6141 /* LyndaExercisesTests.xctest */,
+				5EDB65111C261C11006D6141 /* LyndaExercisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EDB64EF1C261C11006D6141 /* LyndaExercises */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB64F31C261C11006D6141 /* AppDelegate.h */,
+				5EDB64F41C261C11006D6141 /* AppDelegate.m */,
+				5EDB64F61C261C11006D6141 /* ViewController.h */,
+				5EDB64F71C261C11006D6141 /* ViewController.m */,
+				5EDB64F91C261C11006D6141 /* Main.storyboard */,
+				5EDB64FC1C261C11006D6141 /* Assets.xcassets */,
+				5EDB64FE1C261C11006D6141 /* LaunchScreen.storyboard */,
+				5EDB65011C261C11006D6141 /* Info.plist */,
+				5EDB64F01C261C11006D6141 /* Supporting Files */,
+			);
+			path = LyndaExercises;
+			sourceTree = "<group>";
+		};
+		5EDB64F01C261C11006D6141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB64F11C261C11006D6141 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EDB65091C261C11006D6141 /* LyndaExercisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB650A1C261C11006D6141 /* LyndaExercisesTests.m */,
+				5EDB650C1C261C11006D6141 /* Info.plist */,
+			);
+			path = LyndaExercisesTests;
+			sourceTree = "<group>";
+		};
+		5EDB65141C261C11006D6141 /* LyndaExercisesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EDB65151C261C11006D6141 /* LyndaExercisesUITests.m */,
+				5EDB65171C261C11006D6141 /* Info.plist */,
+			);
+			path = LyndaExercisesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EDB64EC1C261C11006D6141 /* LyndaExercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB651A1C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercises" */;
+			buildPhases = (
+				5EDB64E91C261C11006D6141 /* Sources */,
+				5EDB64EA1C261C11006D6141 /* Frameworks */,
+				5EDB64EB1C261C11006D6141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyndaExercises;
+			productName = LyndaExercises;
+			productReference = 5EDB64ED1C261C11006D6141 /* LyndaExercises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EDB65051C261C11006D6141 /* LyndaExercisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB651D1C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercisesTests" */;
+			buildPhases = (
+				5EDB65021C261C11006D6141 /* Sources */,
+				5EDB65031C261C11006D6141 /* Frameworks */,
+				5EDB65041C261C11006D6141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDB65081C261C11006D6141 /* PBXTargetDependency */,
+			);
+			name = LyndaExercisesTests;
+			productName = LyndaExercisesTests;
+			productReference = 5EDB65061C261C11006D6141 /* LyndaExercisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EDB65101C261C11006D6141 /* LyndaExercisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EDB65201C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercisesUITests" */;
+			buildPhases = (
+				5EDB650D1C261C11006D6141 /* Sources */,
+				5EDB650E1C261C11006D6141 /* Frameworks */,
+				5EDB650F1C261C11006D6141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EDB65131C261C11006D6141 /* PBXTargetDependency */,
+			);
+			name = LyndaExercisesUITests;
+			productName = LyndaExercisesUITests;
+			productReference = 5EDB65111C261C11006D6141 /* LyndaExercisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EDB64E51C261C11006D6141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "alex smith";
+				TargetAttributes = {
+					5EDB64EC1C261C11006D6141 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5EDB65051C261C11006D6141 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5EDB64EC1C261C11006D6141;
+					};
+					5EDB65101C261C11006D6141 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5EDB64EC1C261C11006D6141;
+					};
+				};
+			};
+			buildConfigurationList = 5EDB64E81C261C11006D6141 /* Build configuration list for PBXProject "LyndaExercises" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EDB64E41C261C11006D6141;
+			productRefGroup = 5EDB64EE1C261C11006D6141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EDB64EC1C261C11006D6141 /* LyndaExercises */,
+				5EDB65051C261C11006D6141 /* LyndaExercisesTests */,
+				5EDB65101C261C11006D6141 /* LyndaExercisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EDB64EB1C261C11006D6141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB65001C261C11006D6141 /* LaunchScreen.storyboard in Resources */,
+				5EDB64FD1C261C11006D6141 /* Assets.xcassets in Resources */,
+				5EDB64FB1C261C11006D6141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB65041C261C11006D6141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB650F1C261C11006D6141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDB64E91C261C11006D6141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB64F81C261C11006D6141 /* ViewController.m in Sources */,
+				5EDB64F51C261C11006D6141 /* AppDelegate.m in Sources */,
+				5EDB64F21C261C11006D6141 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB65021C261C11006D6141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB650B1C261C11006D6141 /* LyndaExercisesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDB650D1C261C11006D6141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDB65161C261C11006D6141 /* LyndaExercisesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EDB65081C261C11006D6141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDB64EC1C261C11006D6141 /* LyndaExercises */;
+			targetProxy = 5EDB65071C261C11006D6141 /* PBXContainerItemProxy */;
+		};
+		5EDB65131C261C11006D6141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EDB64EC1C261C11006D6141 /* LyndaExercises */;
+			targetProxy = 5EDB65121C261C11006D6141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EDB64F91C261C11006D6141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EDB64FA1C261C11006D6141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EDB64FE1C261C11006D6141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EDB64FF1C261C11006D6141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EDB65181C261C11006D6141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EDB65191C261C11006D6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EDB651B1C261C11006D6141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyndaExercises/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EDB651C1C261C11006D6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyndaExercises/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EDB651E1C261C11006D6141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyndaExercisesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyndaExercises.app/LyndaExercises";
+			};
+			name = Debug;
+		};
+		5EDB651F1C261C11006D6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LyndaExercisesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyndaExercises.app/LyndaExercises";
+			};
+			name = Release;
+		};
+		5EDB65211C261C11006D6141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyndaExercisesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyndaExercises;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5EDB65221C261C11006D6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LyndaExercisesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alex-smith.LyndaExercisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LyndaExercises;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EDB64E81C261C11006D6141 /* Build configuration list for PBXProject "LyndaExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB65181C261C11006D6141 /* Debug */,
+				5EDB65191C261C11006D6141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDB651A1C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB651B1C261C11006D6141 /* Debug */,
+				5EDB651C1C261C11006D6141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EDB651D1C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB651E1C261C11006D6141 /* Debug */,
+				5EDB651F1C261C11006D6141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EDB65201C261C11006D6141 /* Build configuration list for PBXNativeTarget "LyndaExercisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDB65211C261C11006D6141 /* Debug */,
+				5EDB65221C261C11006D6141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EDB64E51C261C11006D6141 /* Project object */;
+}
